@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/onboardingpicture"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+        android:src="@drawable/onboardingscreenitem_1"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/onboardingTv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Car fan Club"
+        android:textColor="@color/black"
+
+
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboardingpicture" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textColor="#808080"
+android:id="@+id/onboardingtv_2"
+        android:gravity="center"
+        android:text="Lorem ipsum dolor sit amet,consectetur adipiscing elit. Posuere duis mauris felis diam. Risus rhoncus, vitae fames sit id lorem. Consectetur habitant tellus orci, cras rutrum mattis sed."
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboardingTv_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
